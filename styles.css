@@ -1,0 +1,216 @@
+html {
+    font-family: poppins, Arial;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background-color: #d6d6d6;
+   
+}
+
+/* Setting up navigation bar, menu and logo */
+
+header {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    transition: all .50s ease;
+  
+}
+
+.logo {
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: all .50s ease;
+    text-align: left;
+}
+
+.logo:hover {
+    color: gold;
+    text-decoration: none;
+
+}
+
+.navlist {
+    display: flex;
+    align-items: center;
+
+}
+
+.navlist a {
+    margin: 0px 5px;
+    padding: 5px 20px;
+    color: #d6d6d6;
+    font-size: 22px;
+    font-weight: bold;
+    transition: all .50s ease;
+    text-align: center;
+}
+
+.navlist a:hover {
+    color: gold;
+    text-decoration: none;
+    
+}
+
+/* Setting up main text */
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#red {
+    color: red; 
+}
+
+#creative {
+    font-family: cursive;
+}
+
+#courierchange {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#who {
+    color: black;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    font-size: 36px;
+    text-decoration: underline;
+    grid-column: 3 / span 2;
+    grid-row: 1;
+    padding-top:60px;
+    text-align: center;
+}
+
+#line {
+    height: 5px;
+    width: 50px;
+    background-color: black;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#iam {
+    color: black;
+    letter-spacing: 0.8px;
+    word-spacing: 1px;
+    font-size: 24px;
+    grid-column: 3 / span 2;
+    grid-row: 1;
+    padding-top: 150px;
+    text-align: center;
+}
+
+#codetext {
+    margin-left: 40px;
+    grid-column: 3 span;
+    grid-row: 2;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+}
+
+#h2size {
+    font-size: 42px;
+}
+
+#h2size, #anthony {
+    letter-spacing: 2px;
+}
+
+#anthony {
+    color: #560C02;
+    text-decoration: underline;
+}
+
+#volunteer  {
+    font-size: 24px;
+    font-weight: normal;
+    margin-left: 45px;
+    grid-column: 3 / span 3;
+    grid-row: 3;
+}
+
+#voluntary {
+    font-weight: bold;
+    font-style: oblique;
+    color: green;
+}
+
+/* Setting up social link placements */
+
+.sociallinks {
+    grid-column: 3 / span 2;
+    grid-row: 4;
+    background-color: white;
+    height: 150px;
+    border: 2px solid black;
+    box-shadow: 2px 5px 7px;
+
+}
+
+.sociallinks a {
+    text-align: center;
+    display: block;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.sociallinks a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* Setting up image placement and border */
+
+#img {
+    grid-column: 2;
+    grid-row: 2;
+    border: 3px solid black;
+    box-shadow: 7px 15px 25px black;
+}
+
+/* Styling footer and it's borders */ 
+
+footer {
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    padding: 5px 0px 20px auto;
+    display: flex;
+     
+}
+
+.social a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    align-items: flex-start;
+  
+}
+
+.footerbottom p {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: right;
+}
