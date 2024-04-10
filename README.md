@@ -7,4 +7,5 @@ This is my first addition to github! My first project is focused on building a r
 **Updates** <br>
 29/03/24 - Set up first respository and code space<br>
 30/03/24 - Uploaded html and css files<br>
-03/04/24 - Redesign after learning further scss and JS - v0.3
+03/04/24 - Redesign after learning further scss and JS - v0.3 <br>
+10/04/24 - New look index.html created with code along - trying new color scheme and :hover :after effects
